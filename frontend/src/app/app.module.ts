@@ -10,13 +10,15 @@ import { AppRoutingModule } from './app-routing.module';
 import { CalendarModule, DateAdapter } from 'angular-calendar';
 import { adapterFactory } from 'angular-calendar/date-adapters/date-fns';
 import { SwishHeaderComponent } from './swish-header/swish-header.component';
+import { SidenavComponent } from './sidenav/sidenav.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     DashboardComponent,
     CalendarComponent,
-    SwishHeaderComponent
+    SwishHeaderComponent,
+    SidenavComponent,
   ],
   imports: [
     BrowserModule,

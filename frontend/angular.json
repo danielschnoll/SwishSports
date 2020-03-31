@@ -123,5 +123,8 @@
       }
     }
   },
-  "defaultProject": "swish-calendar"
+  "defaultProject": "swish-calendar",
+  "cli": {
+    "analytics": "189db9c7-fc41-4e09-b6a3-f740f15d57b8"
+  }
 }
