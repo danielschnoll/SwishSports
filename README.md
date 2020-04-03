@@ -47,5 +47,3 @@ Email me at schnod@rpi.edu and I'll add you as a contributor! I want this projec
 3. `cd` to the /frontend folder and launch the UI with `ng serve -o`
 4. `cd` to the /backend folder and start the server with `python app.py`
 5. Begin adding features and debugging any issues you find! Happy contributing!
-
->>>>>>> 02faaccafafd67dda1f5ea4cd0fd234b0196abac
