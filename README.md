@@ -1,5 +1,5 @@
 # Swish Sports
-Repo for my Fall 2019 [RCOS](https://rcos.io) project
+Repo for my Spring 2020 [RCOS](https://rcos.io) project
 
 ## There was an idea...
 IMLeauges is the current go-to website/application for intramural and club athletics. All existing intramural and club sports at RPI use IMLeagues.
