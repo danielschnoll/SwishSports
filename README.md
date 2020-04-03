@@ -1,4 +1,4 @@
-Swish Sports
+# Swish Sports
 Repo for my Fall 2019 [RCOS](https://rcos.io) project
 
 ## There was an idea...
@@ -30,9 +30,22 @@ Event Management
 
 ## The Stack
 - Python Flask web application, with a RESTful API on the backend for easy database calls
-- React.js (tbd) front end
+- Angular 9 Frontend
 - PostgreSQL database
 
-## How to contribute
+# How to contribute
 Email me at schnod@rpi.edu and I'll add you as a contributor! I want this project to take off, and be used by campuses around the country. Testing will be done via the RPI campus though, as this is where the project is based out of.
+
+## Setup
+0. Make sure you have [Python Flask](https://flask.palletsprojects.com/en/1.1.x/) and [Angular 9](https://angular.io/) installed, as this project requires both
+    - We are working with the latest version of Python 3
+    - Angular requires `npm`, make sure you have Node installed
+    - For Angular 9, a good learning resource for learning is the [Angular Tour of Heroes](https://angular.io/tutorial)
+    - The frontend team spent a good amount of time on ATOH to learn about components and Typescript
+1. Clone the repo to your local environment
+2. Install all Angular dependencies with `npm i`
+3. `cd` to the /frontend folder and launch the UI with `ng serve -o`
+4. `cd` to the /backend folder and start the server with `python app.py`
+5. Begin adding features and debugging any issues you find! Happy contributing!
+
 >>>>>>> 02faaccafafd67dda1f5ea4cd0fd234b0196abac
