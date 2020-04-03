@@ -1,28 +1,49 @@
 * {
-  box-sizing: border-box;
+  	box-sizing: border-box;
 }
 .dashboard-container {
-  width: 100vw;
-  height: 92vh;
-  border: 3px;
-  margin: 0px;
-  padding: 0px;
+	width: 100vw;
+	height: 100%;
+	border: 3px;
+	margin: 0px;
+	padding: 0px;
 }
 .col-left {
-  width: 20%;
-  height: 100%;
-  background-color: lightblue;
-  float: left;
+	width: 20%;
+	height: 80vh;
+	background-color: lightblue;
+	float: left;
 }
-.row-top-right {
-  width: 80%;
-  height: 50%;
-  background-color: red;
-  float: right;
+.row-top-right-stats {
+	width: 40%;
+	height: 47vh;
+	float: left;
+	background-color: whitesmoke;
+}
+.row-top-right-upcoming {
+	width: 40%;
+	height: 47vh;
+	float: right;
 }
 .row-bot-right {
-  width: 80%;
-  height: 50%;
-  background-color: green;
-  float: right;
+	width: 80%;
+	height: 45vh;
+	float: right;
+	background-color: beige;
+}
+
+
+@media only screen and (max-width: 600px) {
+	.col-left{
+		display: none;
+	}
+	.row-top-right-stats{
+		width: 100%;
+	}
+	.row-top-right-upcoming{
+		width: 100%;
+	}
+	.row-bot-right{
+		width: 100%;
+	}
 }
