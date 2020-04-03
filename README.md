@@ -38,7 +38,9 @@ Email me at schnod@rpi.edu and I'll add you as a contributor! I want this projec
 
 ## Setup
 0. Make sure you have [Python Flask](https://flask.palletsprojects.com/en/1.1.x/) and [Angular 9](https://angular.io/) installed, as this project requires both
-    - For Angular 9, a good resource for learning is the [Angular Tour of Heroes](https://angular.io/tutorial)
+    - We are working with the latest version of Python 3
+    - Angular requires `npm`, make sure you have Node installed
+    - For Angular 9, a good learning resource for learning is the [Angular Tour of Heroes](https://angular.io/tutorial)
     - The frontend team spent a good amount of time on ATOH to learn about components and Typescript
 1. Clone the repo to your local environment
 2. Install all Angular dependencies with `npm i`
