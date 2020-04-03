@@ -61,7 +61,7 @@ export class CalendarComponent {
   	{
   		start: new Date(2020, 3, 2, 12),
   		end: new Date(2020, 3, 2, 13),
-  		title: "vs Team C @ fuck",
+  		title: "vs Team C @ 86 Field",
   		color: colors.yellow
   	}
   	]
