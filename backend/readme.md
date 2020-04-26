@@ -1,4 +1,5 @@
 # Backend coming soon!
 ## Details
-We will be using some radical things to create the backend of this project, including python flask, and uhh, other stuff too.
+The backend of this project was created using Python Flask. This is a tool that we can use to navigate through the different web pages of our site, as well as provide acccess to encryption tools to ensure security, and communicate with our database. 
+
 
