@@ -1,0 +1,9 @@
+.sidenav{
+    top: 9vh;
+    width: 20%;
+}
+.bio{
+    display: block;
+    padding: 0 32px;
+    line-height: 20px;
+}

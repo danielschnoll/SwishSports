@@ -1,0 +1,58 @@
+h1 {
+  margin: 0 0 10px;
+  text-align: center;
+  font-size: 36px;
+}
+
+pre {
+  background-color: #f5f5f5;
+  padding: 15px;
+}
+
+
+.btn-group {
+  display: block;
+  padding: 5px 10px;
+  text-decoration: none;
+  text-align: center;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2%;
+  border-radius: 4px;
+  overflow: hidden;
+  font-size: 24px;
+  color: white;
+  width: 30%;
+}
+.btn-primary, .btn-outline-secondary {
+	width: 33.3%;
+	background-color: blue;
+	border-width: 2px; 
+	border-color: white;
+	border-style: solid;
+	border-radius: 10px;
+	box-sizing: border-box;
+}
+
+.btn-primary {
+	float: left;
+}
+.btn-primary:hover{
+  color: #039be5;
+  background-color: #cfd8dc;
+  cursor: pointer;
+}
+.btn-outline-secondary {
+	float: left;
+}
+.btn-outline-secondary:hover{
+  color: #039be5;
+  background-color: #cfd8dc;
+  cursor: pointer;
+}
+
+.calendar-view {
+  text-align: center;
+  padding-left: 20px;
+  padding-right: 20px;
+}
